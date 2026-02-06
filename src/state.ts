@@ -1,5 +1,5 @@
 // src/state.ts
-import { GameState, Achievement } from './types';
+import type { GameState, Achievement } from './types';
 
 export const gameState: GameState = {
     playerName: '',
